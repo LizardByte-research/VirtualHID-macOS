@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A2F3A3F296F111900E4AAF1 /* VirtualHID.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5A2F3A3E296F111900E4AAF1 /* VirtualHID.hpp */; };
+		5A2F3A41296F111900E4AAF1 /* VirtualHID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F3A40296F111900E4AAF1 /* VirtualHID.cpp */; };
+		5A2F3A51296F117300E4AAF1 /* virthid_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2F3A48296F117200E4AAF1 /* virthid_types.h */; };
+		5A2F3A52296F117300E4AAF1 /* virthid_userclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F3A49296F117200E4AAF1 /* virthid_userclient.cpp */; };
+		5A2F3A55296F117300E4AAF1 /* virthid_device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F3A4C296F117300E4AAF1 /* virthid_device.cpp */; };
+		5A2F3A56296F117300E4AAF1 /* virthid_userclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2F3A4D296F117300E4AAF1 /* virthid_userclient.h */; };
+		5A2F3A57296F117300E4AAF1 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2F3A4E296F117300E4AAF1 /* debug.h */; };
+		5A2F3A59296F117300E4AAF1 /* virthid_device.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2F3A50296F117300E4AAF1 /* virthid_device.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A2F3A3B296F111900E4AAF1 /* VirtualHID.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualHID.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2F3A3E296F111900E4AAF1 /* VirtualHID.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VirtualHID.hpp; sourceTree = "<group>"; };
+		5A2F3A40296F111900E4AAF1 /* VirtualHID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualHID.cpp; sourceTree = "<group>"; };
+		5A2F3A42296F111900E4AAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2F3A48296F117200E4AAF1 /* virthid_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = virthid_types.h; sourceTree = "<group>"; };
+		5A2F3A49296F117200E4AAF1 /* virthid_userclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virthid_userclient.cpp; sourceTree = "<group>"; };
+		5A2F3A4C296F117300E4AAF1 /* virthid_device.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virthid_device.cpp; sourceTree = "<group>"; };
+		5A2F3A4D296F117300E4AAF1 /* virthid_userclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = virthid_userclient.h; sourceTree = "<group>"; };
+		5A2F3A4E296F117300E4AAF1 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		5A2F3A50296F117300E4AAF1 /* virthid_device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = virthid_device.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A2F3A38296F111900E4AAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A2F3A31296F111900E4AAF1 = {
+			isa = PBXGroup;
+			children = (
+				5A2F3A3D296F111900E4AAF1 /* VirtualHID */,
+				5A2F3A3C296F111900E4AAF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A2F3A3C296F111900E4AAF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A2F3A3B296F111900E4AAF1 /* VirtualHID.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A2F3A3D296F111900E4AAF1 /* VirtualHID */ = {
+			isa = PBXGroup;
+			children = (
+				5A2F3A4E296F117300E4AAF1 /* debug.h */,
+				5A2F3A4C296F117300E4AAF1 /* virthid_device.cpp */,
+				5A2F3A50296F117300E4AAF1 /* virthid_device.h */,
+				5A2F3A48296F117200E4AAF1 /* virthid_types.h */,
+				5A2F3A49296F117200E4AAF1 /* virthid_userclient.cpp */,
+				5A2F3A4D296F117300E4AAF1 /* virthid_userclient.h */,
+				5A2F3A3E296F111900E4AAF1 /* VirtualHID.hpp */,
+				5A2F3A40296F111900E4AAF1 /* VirtualHID.cpp */,
+				5A2F3A42296F111900E4AAF1 /* Info.plist */,
+			);
+			path = VirtualHID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A2F3A36296F111900E4AAF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2F3A3F296F111900E4AAF1 /* VirtualHID.hpp in Headers */,
+				5A2F3A57296F117300E4AAF1 /* debug.h in Headers */,
+				5A2F3A51296F117300E4AAF1 /* virthid_types.h in Headers */,
+				5A2F3A56296F117300E4AAF1 /* virthid_userclient.h in Headers */,
+				5A2F3A59296F117300E4AAF1 /* virthid_device.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A2F3A3A296F111900E4AAF1 /* VirtualHID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2F3A45296F111900E4AAF1 /* Build configuration list for PBXNativeTarget "VirtualHID" */;
+			buildPhases = (
+				5A2F3A36296F111900E4AAF1 /* Headers */,
+				5A2F3A37296F111900E4AAF1 /* Sources */,
+				5A2F3A38296F111900E4AAF1 /* Frameworks */,
+				5A2F3A39296F111900E4AAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualHID;
+			productName = VirtualHID;
+			productReference = 5A2F3A3B296F111900E4AAF1 /* VirtualHID.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A2F3A32296F111900E4AAF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5A2F3A3A296F111900E4AAF1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5A2F3A35296F111900E4AAF1 /* Build configuration list for PBXProject "VirtualHID" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A2F3A31296F111900E4AAF1;
+			productRefGroup = 5A2F3A3C296F111900E4AAF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A2F3A3A296F111900E4AAF1 /* VirtualHID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A2F3A39296F111900E4AAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A2F3A37296F111900E4AAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2F3A52296F117300E4AAF1 /* virthid_userclient.cpp in Sources */,
+				5A2F3A41296F111900E4AAF1 /* VirtualHID.cpp in Sources */,
+				5A2F3A55296F117300E4AAF1 /* virthid_device.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5A2F3A43296F111900E4AAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5A2F3A44296F111900E4AAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5A2F3A46296F111900E4AAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = 534C989ZLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualHID/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 kotleni. All rights reserved.";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_NAME = kotleni.VirtualHID;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = it.kotleni.virthid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		5A2F3A47296F111900E4AAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = 534C989ZLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualHID/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 kotleni. All rights reserved.";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				MODULE_NAME = kotleni.VirtualHID;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = it.kotleni.virthid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A2F3A35296F111900E4AAF1 /* Build configuration list for PBXProject "VirtualHID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2F3A43296F111900E4AAF1 /* Debug */,
+				5A2F3A44296F111900E4AAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2F3A45296F111900E4AAF1 /* Build configuration list for PBXNativeTarget "VirtualHID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2F3A46296F111900E4AAF1 /* Debug */,
+				5A2F3A47296F111900E4AAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A2F3A32296F111900E4AAF1 /* Project object */;
+}
