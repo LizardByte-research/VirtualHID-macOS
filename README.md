@@ -10,5 +10,5 @@ IOKit virtual hid device driver for macOS.
 ### 📦 Installing
 1. See <a href="https://developer.apple.com/documentation/apple-silicon/installing-a-custom-kernel-extension">apple docs</a> for kext loading instruction.
 
-### How to use (C++)
+### 📒 How to use (C++)
 Coming soon
