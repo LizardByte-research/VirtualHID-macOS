@@ -1,3 +1,6 @@
+<b>❗️ WARNING! This project has a critical bug, it is not recommended to use it. </b>See issue <a href="https://github.com/kotleni/VirtualHID-macOS/issues/1">#1</a>
+<br>
+
 ## VirtualHID
 IOKit virtual hid device driver for macOS.
 <br><a href="https://github.com/kotleni/VirtualHID-macOS/releases">Download</a>
